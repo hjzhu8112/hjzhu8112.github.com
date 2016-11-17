@@ -1,147 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/index.css">
-	<title>FlexBox</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>FlexBox</title>
 </head>
 <body>
-	<div class="page">
-		<div class="header">
-			<p class="title">Flexbox</p>
-		</div>
-		<div>
-			<section class="section page-section-1">
-				<h2>flex-direction</h2>
-				<p>用来创建方轴，从而定义Flex项目在Flex容器中放置的方向。</p>
-				<div class="container">
-					<div class="item">1</div>
-					<div class="item">2</div>
-					<div class="item">3</div>
-				</div>
-			</section>			
-			<section class="section page-section-2">
-				<h2>flex-wrap</h2>
-				<p>根据flex-wrap的属性值来改变，让Flex项目多行显示。</p>
-				<div class="container">
-					<div class="item">1</div>
-					<div class="item">2</div>
-					<div class="item">3</div>
-					<div class="item">4</div>
-					<div class="item">5</div>
-					<div class="item">6</div>
-					<div class="item">7</div>
-				</div>
-			</section>
-				<section class="section page-section-3">
-				<h2>flex-flow</h2>
-				<p>这是flex-direction和flex-wrap两个属性的缩写。</p>
-				<div class="container">
-					<div class="item">1</div>
-					<div class="item">2</div>
-					<div class="item">3</div>
-					<div class="item">4</div>
-					<div class="item">5</div>
-					<div class="item">6</div>
-					<div class="item">7</div>
-				</div>
-			</section>	
-			<section class="section page-section-4">
-				<h2>justify-content</h2>
-				<p>用于在主轴上对齐伸缩项目。</p>
-				<div class="container">
-					<div class="item">1</div>
-					<div class="item">2</div>
-					<div class="item">3</div>
-				</div>
-			</section>
-			<section class="section page-section-5">
-				<h2>align-items</h2>
-				<p>伸缩项目可以在伸缩容器的当前行的侧轴上进行对齐。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-				</div>
-			</section>
-			<section class="section page-section-6">
-				<h2>align-content</h2>
-				<p>当伸缩容器的侧轴还有多余空间时，align-content属性可以用来调准伸缩行在伸缩容器里的对齐方式。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-					<div class="item item4">4</div>
-					<div class="item item5">5</div>
-					<div class="item item6">6</div>
-				</div>
-			</section>			
-			<section class="section page-section-7">
-				<h2>order</h2>
-				<p>可以通过order属性来控制Flex项目的顺序源。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-					<div class="item item4">4</div>
-					<div class="item item5">5</div>
-					<div class="item item6">6</div>
-					<div class="item item7">7</div>
-				</div>
-			</section>				
-			<section class="section page-section-8">
-				<h2>flex-grow</h2>
-				<p>如果有必要的话，flex-grow可以定义一个Flex项目的扩大比例。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-					<!-- <div class="item item4">4</div>
-					<div class="item item5">5</div>
-					<div class="item item6">6</div>
-					<div class="item item7">7</div> -->
-				</div>
-			</section>
-			<section class="section page-section-9">
-				<h2>flex-shrink</h2>
-				<p>flex-shrink可以定义Flex项目的缩小比例。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-					<div class="item item4">4</div>
-				</div>
-			</section>					
-			<section class="section page-section-10">
-				<h2>flex-basis</h2>
-				<p>flex-basis属性定义了Flex项目在分配Flex容器剩余空间之前的一个默认尺寸。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-				</div>
-			</section>
-			<section class="section page-section-11">
-				<h2>flex</h2>
-				<p>flex是flex-grow，flex-shrink和flex-basis三个属性的缩写。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-					<div class="item item4">4</div>
-				</div>
-			</section>
-			<section class="section page-section-12">
-				<h2>align-self</h2>
-				<p>align-self则用来在单独的伸缩项目上覆写默认的对齐方式。</p>
-				<div class="container">
-					<div class="item item1">1</div>
-					<div class="item item2">2</div>
-					<div class="item item3">3</div>
-					<div class="item item4">4</div>
-				</div>
-			</section>
-		</div>
-	</div>
+    <div class="page">
+        <div class="header">
+            <p class="title">Flexbox</p>
+        </div>
+        <div>
+            <section class="section page-section-1">
+                <h2>flex-direction</h2>
+                <p>用来创建方轴，从而定义Flex项目在Flex容器中放置的方向。</p>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                </div>
+            </section>          
+            <section class="section page-section-2">
+                <h2>flex-wrap</h2>
+                <p>根据flex-wrap的属性值来改变，让Flex项目多行显示。</p>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                </div>
+            </section>
+                <section class="section page-section-3">
+                <h2>flex-flow</h2>
+                <p>这是flex-direction和flex-wrap两个属性的缩写。</p>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                </div>
+            </section>  
+            <section class="section page-section-4">
+                <h2>justify-content</h2>
+                <p>用于在主轴上对齐伸缩项目。</p>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                </div>
+            </section>
+            <section class="section page-section-5">
+                <h2>align-items</h2>
+                <p>伸缩项目可以在伸缩容器的当前行的侧轴上进行对齐。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                </div>
+            </section>
+            <section class="section page-section-6">
+                <h2>align-content</h2>
+                <p>当伸缩容器的侧轴还有多余空间时，align-content属性可以用来调准伸缩行在伸缩容器里的对齐方式。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                    <div class="item item5">5</div>
+                    <div class="item item6">6</div>
+                </div>
+            </section>          
+            <section class="section page-section-7">
+                <h2>order</h2>
+                <p>可以通过order属性来控制Flex项目的顺序源。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                    <div class="item item5">5</div>
+                    <div class="item item6">6</div>
+                    <div class="item item7">7</div>
+                </div>
+            </section>              
+            <section class="section page-section-8">
+                <h2>flex-grow</h2>
+                <p>如果有必要的话，flex-grow可以定义一个Flex项目的扩大比例。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <!-- <div class="item item4">4</div>
+                    <div class="item item5">5</div>
+                    <div class="item item6">6</div>
+                    <div class="item item7">7</div> -->
+                </div>
+            </section>
+            <section class="section page-section-9">
+                <h2>flex-shrink</h2>
+                <p>flex-shrink可以定义Flex项目的缩小比例。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </section>                  
+            <section class="section page-section-10">
+                <h2>flex-basis</h2>
+                <p>flex-basis属性定义了Flex项目在分配Flex容器剩余空间之前的一个默认尺寸。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                </div>
+            </section>
+            <section class="section page-section-11">
+                <h2>flex</h2>
+                <p>flex是flex-grow，flex-shrink和flex-basis三个属性的缩写。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </section>
+            <section class="section page-section-12">
+                <h2>align-self</h2>
+                <p>align-self则用来在单独的伸缩项目上覆写默认的对齐方式。</p>
+                <div class="container">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Hotjar Tracking Code for https://hjzhu8112.github.io/practices/flexbox/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:338200,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 </body>
 </html>
